@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.table-container {
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody td:first-child,
+thead th:first-child {
+    position: sticky;
+    left: 0;
+    background: lightblue;
+    font-weight: bold;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
